@@ -1,0 +1,4 @@
+{
+    "exclude-redirections": ["/reset-password", "/confirm-email"],
+    "allowedCountries": ["switzerland"]
+}

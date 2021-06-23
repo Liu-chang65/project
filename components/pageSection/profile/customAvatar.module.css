@@ -1,0 +1,39 @@
+.container {
+  position: relative;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.overlay__text {
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: black;
+  font-size: 16px;
+  position: absolute;
+  font-weight: 500;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay__text:nth-child(1){
+  bottom: 20%; 
+}
+

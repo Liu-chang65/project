@@ -1,0 +1,28 @@
+.cookienotification {
+    position: fixed;
+    background-color: #fbaf02;
+    color: #fff;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (max-width: 720px){
+    .cookienotification {
+        left: 0;
+        bottom: 0;
+        right: 0;
+        transform: initial;
+        border-radius: 0;
+    }
+}
+
+.button:hover {
+   background-color: #fff;
+   color: #fbaf02;
+   box-shadow: 0px 0px 10px #fff; 
+}
